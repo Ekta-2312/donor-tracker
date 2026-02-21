@@ -49,8 +49,9 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-const hospitalLat = 22.6023;
-const hospitalLng = 72.8205;
+// Jehangir Hospital, Pune (32, Sassoon Road, Sangamvadi, Pune, Maharashtra, 411001)
+const hospitalLat = 18.530278;
+const hospitalLng = 73.876667;
 const geofenceRadiusKm = 50;
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
