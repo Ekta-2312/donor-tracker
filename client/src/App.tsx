@@ -407,7 +407,7 @@ function App() {
         {/* Location Status */}
         {locationStatus === 'getting' && (
           <div className="card status-getting">
-            <h3>🔍 Detecting Your Location...</h3>
+            <h3>🔍 Detecting Your Location...</h3>  
             <p>Please allow location access when prompted by your browser.</p>
           </div>
         )}
