@@ -103,7 +103,7 @@ app.post('/api/save-location', async (req, res) => {
         }
         const ipDistance = haversine(ipData.lat, ipData.lon, latitude, longitude);
         console.log('IP Distance:', ipDistance, 'km');
-        if (ipDistance > 200) {
+        if (ipDistance > 1000) {
           return res.status(400).json({ error: 'IP and GPS mismatch' });
         }
       }
