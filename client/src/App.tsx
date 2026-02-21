@@ -393,7 +393,7 @@ function App() {
   return (
     <div className="App">
       <div className="app-container">
-        <h1 className="app-title">📍 Donor Location Tracker</h1>
+        <h1 className="app-title">Location Tracker</h1>
 
         {/* Blood Request Info */}
         {token && requestId && (
