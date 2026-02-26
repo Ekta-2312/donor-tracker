@@ -368,9 +368,9 @@ function App() {
           <p>🚗 Redirecting to Google Maps for directions...</p>
         `);
 
-        // Jehangir Hospital, Pune (32, Sassoon Road, Sangamvadi, Pune, Maharashtra, 411001)
-        const HOSPITAL_LAT = 18.530278;
-        const HOSPITAL_LNG = 73.876667;
+        // CHARUSAT Hospital, Changa, Gujarat
+        const HOSPITAL_LAT = 22.6023;
+        const HOSPITAL_LNG = 72.8205;
 
         // Redirect to Google Maps Directions
         const origin = `${currentCoords.lat},${currentCoords.lng}`;

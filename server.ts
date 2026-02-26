@@ -64,9 +64,9 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-// Jehangir Hospital, Pune (32, Sassoon Road, Sangamvadi, Pune, Maharashtra, 411001)
-const hospitalLat = 18.530278;
-const hospitalLng = 73.876667;
+// CHARUSAT Hospital, Changa, Gujarat
+const hospitalLat = 22.6023;
+const hospitalLng = 72.8205;
 const geofenceRadiusKm = 50;
 
 app.post('/api/save-location', async (req, res) => {
