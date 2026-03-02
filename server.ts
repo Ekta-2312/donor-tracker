@@ -64,9 +64,9 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-// CHARUSAT Hospital, Changa, Gujarat
-const hospitalLat = 22.6023;
-const hospitalLng = 72.8205;
+// Giriraj Hospital
+const hospitalLat = 22.264725;
+const hospitalLng = 70.796815;
 const geofenceRadiusKm = 50;
 
 app.post('/api/save-location', async (req, res) => {

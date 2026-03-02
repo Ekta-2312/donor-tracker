@@ -368,9 +368,9 @@ function App() {
           <p>🚗 Redirecting to Google Maps for directions...</p>
         `);
 
-        // CHARUSAT Hospital, Changa, Gujarat
-        const HOSPITAL_LAT = 22.6023;
-        const HOSPITAL_LNG = 72.8205;
+        // Giriraj Hospital
+        const HOSPITAL_LAT = 22.264725;
+        const HOSPITAL_LNG = 70.796815;
 
         // Redirect to Google Maps Directions
         const origin = `${currentCoords.lat},${currentCoords.lng}`;
