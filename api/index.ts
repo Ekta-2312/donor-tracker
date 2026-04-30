@@ -49,10 +49,10 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-// Giriraj Hospital
-const hospitalLat = 22.264725;
-const hospitalLng = 70.796815;
-const geofenceRadiusKm = 50;
+// Hospital Coordinates
+const hospitalLat = 22.602556127219323;
+const hospitalLng = 72.82048814218332;
+const geofenceRadiusKm = 10; // 10km radius for 2-3km distance buffer
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // CORS headers
