@@ -65,8 +65,8 @@ function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
 }
 
 // Giriraj Hospital
-const hospitalLat = 22.264725;
-const hospitalLng = 70.796815;
+const hospitalLat = 22.6027214;
+const hospitalLng = 72.8212559;
 const geofenceRadiusKm = 50;
 
 app.post('/api/save-location', async (req, res) => {
