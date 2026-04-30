@@ -30,7 +30,7 @@ if (require('fs').existsSync(publicPath)) {
   app.use(express.static(publicPath));
 }
 
-mongoose.connect('mongodb+srv://ektadodiya01_db_user:Ekta%402612@innovate.zqj90eb.mongodb.net/');
+mongoose.connect('mongodb+srv://meghanshthakker:sPJZneO8Bx29SJo8@raktmap.rjhcmrd.mongodb.net/raktmap?retryWrites=true&w=majority');
 
 const Location = mongoose.model('Location', new mongoose.Schema({
   address: String,
